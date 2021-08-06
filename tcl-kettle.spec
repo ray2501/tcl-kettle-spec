@@ -8,10 +8,7 @@ License:       TCL
 Group:         Development/Libraries/Tcl
 Source:        %{name}-%{version}.tar.gz
 URL:           https://github.com/andreas-kupries/kettle
-BuildRequires: autoconf
-BuildRequires: make
 BuildRequires: tcl >= 8.5
-BuildRequires: critcl
 Requires:      tcl >= 8.5
 Requires:      critcl
 BuildRoot:     %{buildroot}
