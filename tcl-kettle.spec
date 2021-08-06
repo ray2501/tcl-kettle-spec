@@ -11,6 +11,7 @@ URL:           https://github.com/andreas-kupries/kettle
 BuildRequires: tcl >= 8.5
 Requires:      tcl >= 8.5
 Requires:      critcl
+Requires:      critcl-devel
 BuildRoot:     %{buildroot}
 
 %description
