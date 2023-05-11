@@ -2,7 +2,7 @@
 
 Name:          tcl-kettle
 Summary:       A build system for pure Tcl, and critcl packages 
-Version:       0.1_git20210206
+Version:       0.1_git20221209
 Release:       0
 License:       TCL
 Group:         Development/Libraries/Tcl

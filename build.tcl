@@ -1,7 +1,7 @@
 #!/usr/bin/tclsh
 
 set arch "noarch"
-set base "tcl-kettle-0.1_git20210206"
+set base "tcl-kettle-0.1_git20221209"
 
 if {[file exists $base]} {
     file delete -force $base
@@ -12,7 +12,7 @@ exec >@stdout 2>@stderr {*}$var
 
 cd $base
 
-set var2 [list git checkout 5c1081cc45ba22d9def3b60f6d0b4c3e8ab59a1a]
+set var2 [list git checkout 96a08d425f3f151966cea8a0005758fd97115958]
 exec >@stdout 2>@stderr {*}$var2
 
 set var2 [list git reset --hard]
