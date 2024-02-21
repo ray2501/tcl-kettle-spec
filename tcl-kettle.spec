@@ -26,6 +26,7 @@ the easy building and installation of pure Tcl packages.
 %install
 tclsh ./kettle -f build.tcl --lib-dir %{buildroot}%_datadir/tcl install-packages
 tclsh ./kettle -f build.tcl --bin-dir %{buildroot}/usr/bin install-app-kettle
+sed -i 's/tclsh8.6/tclsh/g' %{buildroot}/usr/bin/kettle
 
 %clean
 rm -rf %buildroot
